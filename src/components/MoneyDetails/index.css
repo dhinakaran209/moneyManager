@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.wallets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.wallet-img {
+  width: 40px;
+  height: 40px;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #84cc16;
+  filter: brightness(0.9);
+  margin-bottom: 8px;
+  border-radius: 12px;
+  padding: 10px;
+}
